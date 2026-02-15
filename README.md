@@ -654,3 +654,17 @@ ament_target_dependencies(publisher rclcpp my_interfaces)
 Now update the packages and test.
 
 
+# Communicate with the robot
+
+## LIDAR - read
+
+Check the structure of the robot `sensor_msgs/LaserScan` message.
+Try to modify the subscriber to read it.
+
+
+## Motor - write
+
+Check the structure of the velocity message type (`geometry_msgs/Twist`).
+Write a  publisher sending angular `z` value.
+
+
